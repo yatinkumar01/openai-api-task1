@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+<div id="nav">
+    <div>
+        <button type="button" onclick="ConvertCode()">Convert To</button>
+        <select id="lang">
+            <option value="java">Java</option>
+            <option value="javascript">Javascript</option>
+            <option value="python">Python</option>
+            <option value="c++">c++</option>
+            <option value="ruby">Ruby</option>
+            <option value="go lang">Golang</option>
+        </select>
+        <button type="button" onclick="DebugCode()">Debug</button>
+
+        <button type="button" onclick="getQualityCode()">Check Quality</button>
+    </div>
+    <h3>Code Converter</h3>
+</div>
+<div id="container">
+    <div id="left">
+        <textarea id="myInput" placeholder="Enter your code here..."></textarea>
+    </div>
+    <div id="right">
+    </div>
+
+</div>
+</body>
+
+</html>
+<script src="scripts.js"></script>
